@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<!DOCTYPE search SYSTEM "behaviorsearch.dtd">
+<search>
+<bsearchVersionNumber>1,10</bsearchVersionNumber>
+<modelInfo>
+<modelFile>one_ant.nlogo</modelFile>
+<modelSetupCommands>setup</modelSetupCommands>
+<modelStepCommands>go</modelStepCommands>
+<modelStopCondition>ticks &gt; 20000</modelStopCondition>
+<modelStepLimit>20000</modelStepLimit>
+<modelMetricReporter>fitness_value</modelMetricReporter>
+<modelMeasureIf>true</modelMeasureIf>
+</modelInfo>
+<fitnessInfo>
+<fitnessMinimized>false</fitnessMinimized>
+<fitnessCollecting>AT_FINAL_STEP</fitnessCollecting>
+<fitnessSamplingReplications>1</fitnessSamplingReplications>
+<fitnessCombineReplications>MEAN</fitnessCombineReplications>
+</fitnessInfo>
+<searchSpace>
+<paramSpec>["weight1" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight2" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight3" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight4" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight5" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight6" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight7" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight8" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight9" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight10" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight11" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight12" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight13" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight14" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight15" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight16" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight17" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight18" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight19" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight20" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight21" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight22" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight23" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight24" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight25" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight26" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight27" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight28" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight29" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight30" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight31" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight32" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight33" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight34" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight35" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight36" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight37" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight38" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight39" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight40" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight41" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight42" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight43" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight44" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight45" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight46" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight47" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight48" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight49" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight50" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight51" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight52" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight53" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight54" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight55" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight56" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight57" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight58" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight59" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight60" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight61" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight62" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight63" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight64" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight65" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight66" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight67" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight68" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight69" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight70" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight71" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight72" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight73" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight74" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight75" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight76" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight77" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["weight78" [-20.0 0.20 20.0]]</paramSpec>
+<paramSpec>["delay1" [1 1 7]]</paramSpec>
+<paramSpec>["delay2" [1 1 7]]</paramSpec>
+<paramSpec>["delay3" [1 1 7]]</paramSpec>
+<paramSpec>["delay4" [1 1 7]]</paramSpec>
+<paramSpec>["delay5" [1 1 7]]</paramSpec>
+<paramSpec>["delay6" [1 1 7]]</paramSpec>
+<paramSpec>["delay7" [1 1 7]]</paramSpec>
+<paramSpec>["delay8" [1 1 7]]</paramSpec>
+<paramSpec>["delay9" [1 1 7]]</paramSpec>
+<paramSpec>["delay10" [1 1 7]]</paramSpec>
+<paramSpec>["delay11" [1 1 7]]</paramSpec>
+<paramSpec>["delay12" [1 1 7]]</paramSpec>
+<paramSpec>["delay13" [1 1 7]]</paramSpec>
+<paramSpec>["delay14" [1 1 7]]</paramSpec>
+<paramSpec>["delay15" [1 1 7]]</paramSpec>
+<paramSpec>["delay16" [1 1 7]]</paramSpec>
+<paramSpec>["delay17" [1 1 7]]</paramSpec>
+<paramSpec>["delay18" [1 1 7]]</paramSpec>
+<paramSpec>["delay19" [1 1 7]]</paramSpec>
+<paramSpec>["delay20" [1 1 7]]</paramSpec>
+<paramSpec>["delay21" [1 1 7]]</paramSpec>
+<paramSpec>["delay22" [1 1 7]]</paramSpec>
+<paramSpec>["delay23" [1 1 7]]</paramSpec>
+<paramSpec>["delay24" [1 1 7]]</paramSpec>
+<paramSpec>["delay25" [1 1 7]]</paramSpec>
+<paramSpec>["delay26" [1 1 7]]</paramSpec>
+<paramSpec>["delay27" [1 1 7]]</paramSpec>
+<paramSpec>["delay28" [1 1 7]]</paramSpec>
+<paramSpec>["delay29" [1 1 7]]</paramSpec>
+<paramSpec>["delay30" [1 1 7]]</paramSpec>
+<paramSpec>["delay31" [1 1 7]]</paramSpec>
+<paramSpec>["delay32" [1 1 7]]</paramSpec>
+<paramSpec>["delay33" [1 1 7]]</paramSpec>
+<paramSpec>["delay34" [1 1 7]]</paramSpec>
+<paramSpec>["delay35" [1 1 7]]</paramSpec>
+<paramSpec>["delay36" [1 1 7]]</paramSpec>
+<paramSpec>["delay37" [1 1 7]]</paramSpec>
+<paramSpec>["delay38" [1 1 7]]</paramSpec>
+<paramSpec>["delay39" [1 1 7]]</paramSpec>
+<paramSpec>["delay40" [1 1 7]]</paramSpec>
+<paramSpec>["delay41" [1 1 7]]</paramSpec>
+<paramSpec>["delay42" [1 1 7]]</paramSpec>
+<paramSpec>["delay43" [1 1 7]]</paramSpec>
+<paramSpec>["delay44" [1 1 7]]</paramSpec>
+<paramSpec>["delay45" [1 1 7]]</paramSpec>
+<paramSpec>["delay46" [1 1 7]]</paramSpec>
+<paramSpec>["delay47" [1 1 7]]</paramSpec>
+<paramSpec>["delay48" [1 1 7]]</paramSpec>
+<paramSpec>["delay49" [1 1 7]]</paramSpec>
+<paramSpec>["delay50" [1 1 7]]</paramSpec>
+<paramSpec>["delay51" [1 1 7]]</paramSpec>
+<paramSpec>["delay52" [1 1 7]]</paramSpec>
+<paramSpec>["delay53" [1 1 7]]</paramSpec>
+<paramSpec>["delay54" [1 1 7]]</paramSpec>
+<paramSpec>["delay55" [1 1 7]]</paramSpec>
+<paramSpec>["delay56" [1 1 7]]</paramSpec>
+<paramSpec>["delay57" [1 1 7]]</paramSpec>
+<paramSpec>["delay58" [1 1 7]]</paramSpec>
+<paramSpec>["delay59" [1 1 7]]</paramSpec>
+<paramSpec>["delay60" [1 1 7]]</paramSpec>
+<paramSpec>["delay61" [1 1 7]]</paramSpec>
+<paramSpec>["delay62" [1 1 7]]</paramSpec>
+<paramSpec>["delay63" [1 1 7]]</paramSpec>
+<paramSpec>["delay64" [1 1 7]]</paramSpec>
+<paramSpec>["delay65" [1 1 7]]</paramSpec>
+<paramSpec>["delay66" [1 1 7]]</paramSpec>
+<paramSpec>["delay67" [1 1 7]]</paramSpec>
+<paramSpec>["delay68" [1 1 7]]</paramSpec>
+<paramSpec>["delay69" [1 1 7]]</paramSpec>
+<paramSpec>["delay70" [1 1 7]]</paramSpec>
+<paramSpec>["delay71" [1 1 7]]</paramSpec>
+<paramSpec>["delay72" [1 1 7]]</paramSpec>
+<paramSpec>["delay73" [1 1 7]]</paramSpec>
+<paramSpec>["delay74" [1 1 7]]</paramSpec>
+<paramSpec>["delay75" [1 1 7]]</paramSpec>
+<paramSpec>["delay76" [1 1 7]]</paramSpec>
+<paramSpec>["delay77" [1 1 7]]</paramSpec>
+<paramSpec>["delay78" [1 1 7]]</paramSpec>
+</searchSpace>
+<searchMethod type="StandardGA">
+<searchMethodParameter name="mutation-rate" value="0.1"/>
+<searchMethodParameter name="population-size" value="32"/>
+<searchMethodParameter name="tournament-size" value="3"/>
+<searchMethodParameter name="population-model" value="generational"/>
+<searchMethodParameter name="crossover-rate" value="0.7"/>
+</searchMethod>
+<chromosomeRepresentation type="MixedTypeChromosome"/>
+<caching>true</caching>
+<evaluationLimit>4000</evaluationLimit>
+<bestCheckingNumReplications>0</bestCheckingNumReplications>
+</search>
